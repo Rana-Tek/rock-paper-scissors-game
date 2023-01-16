@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(63,215,203);
+background: linear-gradient(90deg, rgba(63,215,203,1) 33%, rgba(77,245,16,1) 96%);
+display: flex;
+justify-content: center;
+align-content: center;
+flex-direction: column;
+}
+h3{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 5rem;
+
+}
+
+.table1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6rem;
+    font-size: 30px;
+    
+}
+
+.image{
+   
+    display: flex;
+    justify-content: space-around;
+    
+}
+.image img{
+    width: 5rem;
+    margin-top: 2.5rem;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.image img:hover{
+    transform: scale(2);
+}
+
+.secimler{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    margin-top: 40px;
+    font-family: 'Roboto' cursive;
+    font-size: 30px;
+}
+span{
+    margin-bottom: 15px;
+}
+
+.oyuncu_secim, .bilgisayar_secim{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.oyuncu_secim span, .bilgisayar_secim span{
+    text-decoration: underline;
+}
+.eslesme{
+    height: 50px;
+    width: 450px;
+    border: 2px solid maroon;
+    margin-top: 50px;
+    margin-left: 550px;
+    text-align: center;
+    line-height: 50px;
+    color: aliceblue;
+    font-size: 30px;
+    
+}
+#oyuncu_secimi{
+    width: 5rem;
+}
+#bilgisayar_secimi{
+    width: 5rem;
+}
+
+.oyuncu_secimi, .bilgisayar_secimi{
+    
+    display: flex;
+    justify-content: space-around;
+
+}
