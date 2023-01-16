@@ -40,7 +40,7 @@ h3{
     transition: all .5s ease;
 }
 
-.image img:hover{
+.image button:hover{
     transform: scale(2);
 }
 
